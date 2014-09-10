@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cities">http://pastebin.com/raw.php?i=v45rNWx0</string>
+    <!-- %s is city name  -->
+    <string name="weather">http://api.openweathermap.org/data/2.5/weather?q=%s</string>
+    <!-- %s is the icon name -->
+    <string name="icon">http://openweathermap.org/img/w/%s.png</string>
+</resources>
