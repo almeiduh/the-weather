@@ -298,7 +298,7 @@ public class WeatherActivity extends ListActivity {
     protected void onStart() {
         super.onStart();
         Intent intent = new Intent(this, MusicService.class);
-        //startService(intent);
+        startService(intent);
         bindService(intent, connection, BIND_AUTO_CREATE);
     }
 
